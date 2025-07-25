@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
+tutorial del video Build a full stack Treelo app with Nexts 15 supabase , tailwind, drag and drop de PedroTech (https://www.youtube.com/watch?v=ugxI1o5SyMs&t=195s)
 ## Getting Started
 
 First, run the development server:
@@ -48,3 +48,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 -npx shadcn@latest init # esto crea components.json y lib/utils.ts con la funcion cn , esta ultima se hizo gracias a instalar antes las librerias de tailwind-merge y clsx ahora podes usar esta funcion para combinar classname .
 ##AHORA INSTALAMOS LOS COMPONENTES QUE VAMOS A USAR DE SHADCN
 -npx shadcn add button card input label textarea dialog select badge
+
+## Para la parte de Supabase aprox 00:50:00 min del video Build a full stack Treelo app with Nexts 15 supabase , tailwind, drag and drop
+- en la carpeta supabase encontramos entre otros, los archivos client.ts y server.ts , estos dos archivos se puede copiar y pegar en cualquier proyecto, no es necesario entender
+la logica, esto lo trae supabase en su documentacion.
