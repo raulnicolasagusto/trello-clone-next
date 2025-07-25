@@ -52,3 +52,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Para la parte de Supabase aprox 00:50:00 min del video Build a full stack Treelo app with Nexts 15 supabase , tailwind, drag and drop
 - en la carpeta supabase encontramos entre otros, los archivos client.ts y server.ts , estos dos archivos se puede copiar y pegar en cualquier proyecto, no es necesario entender
 la logica, esto lo trae supabase en su documentacion.
+
+
+//Continuar min 1:32:00
+https://www.youtube.com/watch?v=ugxI1o5SyMs&t=195s
