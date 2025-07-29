@@ -4,13 +4,15 @@ import Navbar from "@/components/navbar";
 import { Button } from "@/components/ui/button";
 import { useClerk, useUser } from "@clerk/nextjs";
 import { Plus } from "lucide-react";
+import { useBoards } from "@/lib/hooks/useBoards";
 
 export default function DashboardPage(){
     const { user } = useUser();
     const { createBoard } = useBoards();
 
     const handleCreateBoard = async () => {
-      await createBoard()
+      //funcion que viene desde useBoards
+      await createBoard({title:"New Board"})
     }
     return (
         <div className="min-h-screen bg-gray-50">
@@ -32,3 +34,7 @@ export default function DashboardPage(){
     )
 }
 
+
+/* Este dominio nos dio clerk cuando activamos supabase
+https://enough-moth-49.clerk.accounts.dev
+*/
